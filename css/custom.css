@@ -1,3 +1,8 @@
-.messenger {
+.messenger, .slides.whiteSlide .panel .menuButton.messenger {
   background-color: #0084FF;
+}
+
+.close {
+  rigt: auto !important;
+  left: 0;
 }
