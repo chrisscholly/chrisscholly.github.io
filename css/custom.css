@@ -6,3 +6,7 @@
   rigt: auto !important;
   left: 0;
 }
+
+.zoom-img, .zoom-img-wrap {
+  z-index: 999;
+}
