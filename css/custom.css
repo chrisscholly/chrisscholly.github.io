@@ -1,12 +1,173 @@
-.messenger, .slides.whiteSlide .panel .menuButton.messenger {
-  background-color: #0084FF;
+h1 {
+  font-family: 'Archivo Black', sans-serif;
 }
 
-.close {
-  rigt: auto !important;
+.slide h1 {
+  font-weight: bold;
+}
+
+.slides.firstSlide .panel.top.hideFirstSlideOnly {
+  -webkit-transform: translate3d(0, -100%, 0);
+          transform: translate3d(0, -100%, 0);
+  opacity: 0;
+}
+
+.popup:not([class*=fade]) {
+    background: rgba(0,0,0, 0.92);
+}
+
+.popup .close {
   left: 0;
+  right: auto !important;
+  padding: 30px !important;
 }
 
 .zoom-img, .zoom-img-wrap {
   z-index: 999;
+}
+
+/* a.link .material-icons {
+  position: absolute;
+  bottom: -1px;
+  left: initial;
+  -webkit-transition: -webkit-transform .25s;
+  transition: -webkit-transform .25s;
+  transition: transform .25s;
+  transition: transform .25s,-webkit-transform .25s;
+  -webkit-transform: translateX(-2px);
+  transform: translateX(-2px);
+}
+
+a.link:hover .material-icons {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+} */
+
+/* Blackpills */
+
+.stage-2 {
+  background-color: #0b0b0b;
+  color: #fff;
+}
+
+svg.stage-2-badge {
+  fill: #fff;
+}
+
+/* .stage-2-link {
+    color: #de6582;
+    position: relative;
+    -webkit-box-shadow: 0 2px rgba(222,101,130,0.5);
+    box-shadow: 0 2px rgba(222,101,130,0.5);
+} */
+
+.slides.stage-2 .panel svg {
+  fill: #fff;
+}
+
+.slides.stage-2 .panel .button {
+  background-color: #fff;
+  color: #0b0b0b;
+}
+
+.slides.stage-2 .panel .button.stroke {
+  color: #fff;
+}
+
+.slides.stage-2 .navigation li:after {
+  background-color: #fff;
+}
+
+
+/* Fabulous */
+
+.stage-3 {
+  background-color: #fff;
+  color: #202020;
+}
+
+svg.stage-3-badge {
+  fill: #202020;
+}
+
+.slides.stage-3 .panel svg {
+  fill: #202020;
+}
+
+.slides.stage-3 .panel .button {
+  background-color: #202020;
+  color: #fff;
+}
+
+.slides.stage-3 .panel .button.stroke {
+  color: #202020;
+}
+
+.slides.stage-3 .navigation li:after {
+  background-color: #202020;
+}
+
+
+/* TokTokDoc */
+
+.stage-4 {
+  background-color: #fff;
+  color: #202020;
+}
+
+svg.stage-4-badge {
+  fill: #202020;
+}
+
+.slides.stage-4 .panel svg {
+  fill: #202020;
+}
+
+.slides.stage-4 .panel .button {
+  background-color: #202020;
+  color: #fff;
+}
+
+.slides.stage-4 .panel .button.stroke {
+  color: #202020;
+}
+
+.slides.stage-4 .navigation li:after {
+  background-color: #202020;
+}
+
+
+/* Games */
+
+.stage-5 {
+  background-color: #000;
+  color: #00ffff;
+}
+
+.stage-5-link {
+  color: rgba(0,255,255,0.7);
+  position: relative;
+  -webkit-box-shadow: 0 2px rgba(0,255,255,0.7);
+  box-shadow: 0 2px rgba(0,255,255,0.7);
+}
+
+svg.stage-5-badge {
+  fill: #00ffff;
+}
+
+.slides.stage-5 .panel svg {
+  fill: #00ffff;
+}
+
+.slides.stage-5 .panel .button {
+  background-color: #00ffff;
+  color: #000;
+}
+
+.slides.stage-5 .panel .button.stroke {
+  color: #00ffff;
+}
+
+.slides.stage-5 .navigation li:after {
+  background-color: #00ffff;
 }

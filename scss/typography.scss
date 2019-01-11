@@ -10,8 +10,7 @@
 html {
 
 	font-size: 6px;
-	font-family: $body-font;
-	font-weight: $normal;
+	font-weight: 400;
 	color: $color-medium;
 
 	@media (max-width: 550px) {
@@ -23,16 +22,16 @@ html {
 	}
 
 	@media (min-width: 1024px) {
-		font-size: 8px;
+		font-size: 6px;
 	}
 
 }
 
 body {
-	font-size: 16px;
+	font-size: 15px;
 }
 
-.article {
+.typography {
 
 	// HEADINGS
 	.h1, h1, 
@@ -41,33 +40,29 @@ body {
 	.h4, h4, 
 	.h5, h5, 
 	.h6, h6 {
-
-		font-family: $header-font;
 		font-style: normal;
-		font-weight: $bold;
 		letter-spacing: normal;
-		opacity: 0.9;
 
 		// WEIGHT VARIANTS
 		&.ultraLight {
-			font-weight: $ultraLight;
+			font-weight: 100;
 		}
 		&.light {
-			font-weight: $light;
+			font-weight: 300;
 		}
 		&.normal {
-			font-weight: $normal;
+			font-weight: 400;
 		}
 		&.semiBold {
-			font-weight: $semiBold;
+			font-weight: 500;
 			letter-spacing: -.05em
 		}
 		&.bold {
-			font-weight: $bold;
+			font-weight: 600;
 			letter-spacing: -.04em
 		}
 		&.ultraBold {
-			font-weight: $ultraBold;
+			font-weight: 800;
 			letter-spacing: -.03em
 		}
 
@@ -224,7 +219,7 @@ body {
 	// H6
 	.h6, h6 {
 		@include plumber(
-			$font-size: 3.6,
+			$font-size: 4,
 			$line-height: 4,
 			$leading-top: 4,
 			$leading-bottom: 0,
@@ -274,7 +269,7 @@ body {
 				$leading-bottom: 4,
 				$baseline: $body-baseline
 			);
-			font-weight: $light;
+			font-weight: 300;
 			letter-spacing: -0.16rem;
 		}
 
@@ -285,11 +280,11 @@ body {
 	// ELEMENTS
 
 	& strong {
-		font-weight: $bold;
+		font-weight: 600;
 	}
 
 	& em {
-		font-weight: $semiBold;
+		font-weight: 500;
 	}
 
 	& li {
@@ -369,7 +364,7 @@ body {
 
 	// Make font-weight lighter on larger screens
 	@media (min-width: 768px) {
-		font-weight: $light;
+		font-weight: 300;
 	}
 
 }
