@@ -26,6 +26,16 @@ h1 {
   z-index: 999;
 }
 
+.panel svg {
+  -webkit-transition: fill .5s .25s;
+  transition: fill .5s .25s;
+}
+
+.panel a {
+  -webkit-transition: .5s .25s;
+  transition: .5s .25s;
+}
+
 /* a.link .material-icons {
   position: absolute;
   bottom: -1px;
