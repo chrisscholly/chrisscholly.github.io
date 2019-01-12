@@ -31,7 +31,7 @@ h1 {
   transition: fill .5s .25s;
 }
 
-.panel a {
+.panel a, .navigation li:after {
   -webkit-transition: .5s .25s;
   transition: .5s .25s;
 }
